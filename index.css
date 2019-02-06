@@ -1,0 +1,140 @@
+body{
+    padding: 0px;
+    /*background-color:#e8ebf3;*/
+}
+#parents{
+    padding: 0px;
+    margin: 0px;
+    background-color:#e8ebf3;
+}
+.headInput{
+    width: 170px;
+    height: 23px;
+    border: 1px solid #29487d;
+}
+.avecMargeLeft{
+    padding-left:30px; 
+}
+.sansMargeLeft{
+    padding-left:0px; 
+}
+#avecImage{
+    background-image: url(dossierImage/bgiGpsimple.jpg);
+    padding-top: 5px;
+}
+#buttonConnecter{
+    margin-top:38px;
+    background-color:#4267b2;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    color:white;
+}
+.aColore{
+    margin-top:12px;
+    color:#9cadd2;
+    font-size: 12px; 
+}
+label{
+    color: #e8ebf3;
+    margin-top:12px; 
+}
+#imageUtilisateur{
+    width: 89%;
+    height: 45%;
+    margin-top: 5px;
+}
+#grosRow{
+    margin: 0px;
+    padding:0px;
+
+}
+
+
+#header{
+    margin: 0px;
+    padding:0px;
+    background-color: #4a659f;
+    height: auto;
+}
+/*
+
+hr{
+    border: 1px solide red;
+    width: 45px;
+}
+style du logo facebook
+*/
+.logoFacebook{
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+}
+/* maintenant content*/
+.titreAgauche{
+    margin-top: 30px;
+    font-size: 22px;
+    color:#0e385f;
+}
+.labelRadio{
+    color:black;
+    font-size: 18px;
+}
+.titreDuDroite{
+    font-weight: bolder;
+}
+.sousTitre{
+    font-size: 20px;
+}
+.inputAcote{
+    width:200px;
+    height: 37px;
+    border-radius: 5px;
+    border:1px solid #c5cedc;
+}
+.gdInput{
+    width:412px;
+    height: 37px;
+    border-radius: 5px;
+    border:1px solid #c5cedc; 
+}
+#footer{
+    padding-top: 15px;
+    background-color:white;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.contentBoxSection{
+    padding: 0px;
+    margin: 0px;
+}
+.contentGauche{
+    margin: 0px;
+    padding-left: 100px;
+}
+#paragraphelong{
+    font-size:13px;
+}
+.colonneDeLabel{
+    margin:0px;
+    padding: 0px;
+}
+.selectBot{
+    width:auto;
+    height: 30px;
+    border:1px solid #c5cedc;
+    
+}
+#enleverMarge{
+    margin-left: 0px;
+}
+.contentInput{
+    padding-left: 14px;
+    margin: 0px;
+}
+.avecMargin{
+    margin-bottom:10px;
+}
+#btn{
+    width: 165px;
+    margin-left: 150px;
+}
