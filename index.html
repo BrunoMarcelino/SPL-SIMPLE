@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Facebook</title>
+        <link rel="shortcut icon" type="image/x-icon" href="dossierImage/logofb.png" />
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!--debut div parent-->
+        <div id="parents" class="container-fluid">
+            <!--debut entete-->
+                <div id="header" class="row">
+                    <div class="col-md-6">
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-3"></div> 
+                                <div class="col-md-4">
+                                    <h1 class="logoFacebook">facebook</h1>
+                                    <!--<img src="dossierImage/fbi.PNG" alt="image logo fb"/>-->
+                                </div> 
+                                <div class="col-md-5"></div> 
+                            </div>
+                        </div>  
+                     </div> 
+                    
+                    <div class="col-md-6">
+                        <div class="container-fluid">
+                            <div class="row">
+            
+                                <div class="col-md-4 avecMargeLeft">
+                                    <label>Adresse e-mail ou mobile</label>
+                                    <input type="text" class="headInput"/>
+                                </div> 
+                                <div class="col-md-4 sansMargeLeft">
+                                    <label>Mot de passe</label>
+                                    <input type="password" class="headInput"/>
+                                    <br/>
+                                    <p class="aColore" >Informations de compte oubliées ?</p>
+                                </div> 
+                                <div class="col-md-2">
+                                    <input id="buttonConnecter" type="submit" value="Connexion">
+                                </div> 
+                                <div class="col-md-2"></div>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--fin entete-->
+            
+            <!--debut content-->
+                <div id="avecImage" class="container-fluid">
+                    <div class="row">
+                        <!-- content du gauche-->
+                        <div class="col-md-6">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-10">
+                                            <h3 class="titreAgauche"><b>Avec Facebook, partagez et restez en contact <br/>
+                                                avec votre entourage.</b></h3>
+                                            <img  id="imageUtilisateur"  src="dossierImage/image.png"  alt="image reso-socio"/>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin content du gauche-->
+                        <!-- content du droit-->
+                        <div class="col-md-6">
+                            <div class="container-fluid contentGauche">
+                                <div class="container-fluid contentInput">
+                                    <div class="row avecMargin">
+                                            <h1 class="titreDuDroite">Inscription</h1>
+                                            <p class="sousTitre">C'est gratuit (et ça le restera toujours)</p>   
+                                            <input class="inputAcote" type="text" placeholder="Prénom"/>&nbsp;&nbsp;
+                                            <input class="inputAcote" type="text" placeholder="Nom de famille"/>
+                                    </div>
+                                
+                                    <div class="row avecMargin">
+                                            <input class="gdInput" type="text" placeholder="Numéro de mobile ou e-mail"/>
+                                    </div>
+                                    
+                                    <div class="row">
+                                            <input  class="gdInput" type="text" placeholder="Nouveau mot de passe"/>
+                                    </div>
+                                
+                                </div>
+                               <div class="container-fluid contentBoxSection">
+                                
+                                <p class="sousTitre">Date de naissance</p>
+                                
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <span>
+                                                <select class="selectBot">
+                                                        <option >jours</option>
+                                                        <option >1</option>
+                                                        <option >2</option>
+                                                        <option >3</option>
+                                                        <option >4</option>
+                                                        <option >5</option>
+                                                        <option >6</option>
+                                                        <option >7</option>
+                                                    </select>
+                                                    <select id="enleverMarge"class="selectBot">
+                                                        <option >Mois</option>
+                                                        <option >jan</option>
+                                                        <option >fév</option>
+                                                        <option >mar</option>
+                                                        <option >avr</option>
+                                                        <option >mai</option>
+                                                        <option >jun</option>
+                                                        <option >juil</option>
+                                                    </select>
+                                                    <select class="selectBot">
+                                                            <option >Année</option>
+                                                            <option >2013</option>
+                                                            <option >2014</option>
+                                                            <option >2015</option>
+                                                            <option >2016</option>
+                                                            <option >2017</option>
+                                                            <option >2018</option>
+                                                            <option >2019</option>
+                                                    </select>
+                                                </span>
+                                        </div>
+                                        <div class="col-md-7 colonneDeLabel">
+                                            <p><a href="#">Pourquoi indiquer ma date<br> de naissance ?</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <input type="radio"/>&nbsp;<label class="labelRadio"> Femme</label> 
+                            &nbsp;&nbsp;&nbsp;&nbsp;  
+                            <input type="radio"/>&nbsp;<label class="labelRadio"> Homme</label>
+                              <p id="paragraphelong">En appuyant sur inscription, vous acceptez nos <a href="#">Conditions<br/>
+                                génèrales</a>,notre <a href="#">Politiques d'utilisations des données</a> et notre<br/>
+                                <a href="#">politique d'utilisation des cookies.</a>Vous recevrez peut -être des<br/> 
+                                notifications par texto de notre part et vous pouvez à tout<br/> 
+                                moment vous désabonner.</p> 
+                                <button id="btn" type="button" class="btn btn-success">Inscription</button> 
+                                <br/>
+                                </a>
+                                <p><a href="#">Créer une Page</a> pour une célébrité, un groupe ou une entreprise</p>
+                            </div>
+                        </div>
+                        <!--  fin du content du droite-->
+                    </div>
+
+                </div>
+
+            <!--fin content-->
+            <!--debut footer -->
+                <div id="footer" class="container-fluid">
+                    <p>   Français (France)&nbsp;
+                            &nbsp;<a href="#">English (US)</a>
+                            &nbsp;<a href="#">Malagasy</a>
+                            &nbsp;<a href="#">Italiano</a>
+                            &nbsp;<a href="#">Español</a>
+                            &nbsp;<a href="#">Deutsch</a>
+                            &nbsp;<a href="#">中文(简体)</a>
+                            &nbsp;<a href="#">Türkçe</a>
+                            &nbsp;<a href="#">Português (Brasil)</a>
+                            &nbsp;<a href="#">العربية</a>
+                            &nbsp;<a href="#">हिन्दी</a>
+                            &nbsp;&nbsp;<button>+</button>
+                        <hr/>
+                          
+                    </p> 
+                    <p> <a href="#">Inscription</a>
+                        &nbsp; &nbsp;<a href="#">Connexion</a> 
+                        &nbsp; &nbsp;<a href="#">Messenger</a>
+                        &nbsp; &nbsp;<a href="#">Facebook Lite</a>
+                        &nbsp;&nbsp;<a href="#">Mobile</a>
+                        &nbsp;&nbsp;<a href="#">Retrouver des amis</a>
+                        &nbsp; &nbsp;<a href="#">Personnes</a>
+                        &nbsp;&nbsp;<a href="#">Profils</a>
+                        &nbsp;&nbsp;<a href="#">Pages</a>
+                        &nbsp;&nbsp;<a href="#">Catégories de Page</a>
+                        &nbsp;&nbsp;<a href="#">Lieux</a>
+                        &nbsp;&nbsp;<a href="#">Jeux</a>
+                        &nbsp;&nbsp;<a href="#">Lieux</a> 
+                        <br>  
+                        <a href="#">Marketplace</a>
+                        &nbsp; &nbsp;<a href="#">Groupes</a>
+                        &nbsp;&nbsp;<a href="#">Instagram</a>
+                        &nbsp; &nbsp;<a href="#">Local</a>
+                        &nbsp;&nbsp;<a href="#">Collectes de fonds</a>
+                        &nbsp;&nbsp;<a href="#">À propos</a>
+                        &nbsp;&nbsp;<a href="#">Créer une publicité</a>
+                        &nbsp;&nbsp;<a href="#">Créer une Page</a>
+                        &nbsp;&nbsp;<a href="#">Développeurs</a>
+                        &nbsp;&nbsp;<a href="#">Emplois</a>
+                        &nbsp;&nbsp;<a href="#">Confidentialité</a> 
+                        <br>
+                                      
+                        <a href="#">Cookies</a> 
+                        &nbsp;&nbsp;<a href="#">Choisir sa pub</a>
+                        &nbsp; &nbsp;<a href="#">Conditions générales</a>
+                        &nbsp; &nbsp;<a href="#">Sécurité du compte</a>
+                        &nbsp;&nbsp;<a href="#">Aide à la connexion</a>
+                        &nbsp;&nbsp;<a href="#">Aide</a>
+                        
+                        
+                        <br>
+                        <br>
+
+                        Facebook © 2019</p>
+
+                </div>
+            <!--fin footer -->
+        </div>
+        <!--fin div parent-->
+    </body>
+</html>
