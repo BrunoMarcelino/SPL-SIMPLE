@@ -119,7 +119,7 @@ style du logo facebook
     padding: 0px;
 }
 .selectBot{
-    width:auto;
+    width:45px;
     height: 30px;
     border:1px solid #c5cedc;
     
@@ -152,4 +152,7 @@ style du logo facebook
     font-size: 10px;
     font-weight: bolder;
     font-family: Arial;
+}
+#labelhead{
+font-size:10px;
 }
