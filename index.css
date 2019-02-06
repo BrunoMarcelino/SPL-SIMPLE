@@ -134,9 +134,22 @@ style du logo facebook
 .avecMargin{
     margin-bottom:10px;
 }
+
 #btn{
     width: 165px;
-    border: 1px solid #29487d;
+    border: 1px double #023f0a;
     font-size:20px;
     color:white; 
+    height: 35px;
+    line-height: 20px;
+}
+#petit strong {
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: Arial;
+}
+#date{
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: Arial;
 }
